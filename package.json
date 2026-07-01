@@ -1,0 +1,25 @@
+{
+  "name": "non-cancel-failover-balancer",
+  "version": "0.1.0",
+  "description": "Failover balancer that tries the next node on timeout without cancelling previous requests",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "failover",
+    "balancer",
+    "timeout",
+    "promise"
+  ],
+  "scripts": {
+    "start": "node example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
