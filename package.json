@@ -1,5 +1,5 @@
 {
-  "name": "non-cancel-failover-balancer",
+  "name": "@vvepretskiy/non-cancel-failover-balancer",
   "version": "0.1.0",
   "description": "Failover balancer that tries the next node on timeout without cancelling previous requests",
   "type": "module",
@@ -10,6 +10,10 @@
   "files": [
     "src/index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvepretskiy/balancer.git"
+  },
   "keywords": [
     "failover",
     "balancer",
@@ -20,6 +24,9 @@
     "start": "node example.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "vvepretskiy",
   "license": "ISC"
 }
